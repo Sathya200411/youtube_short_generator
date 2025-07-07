@@ -6,8 +6,8 @@ import pytz
 class EnglishAstrologyAPI:
     def __init__(self):
         # Load credentials from cred.text
-        self.client_id = "efd2aa11-ce98-49e5-a04a-dfb5277d6856"
-        self.client_secret = "0GMhVTymCt6t4eTO1ugpgiTc4ghIYXsfOfroZKKD"
+        self.client_id = "Secret"
+        self.client_secret = "Secret"
         self.base_url = "https://api.prokerala.com/v2/astrology"
         
     def get_access_token(self):

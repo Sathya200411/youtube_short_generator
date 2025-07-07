@@ -5,8 +5,8 @@ import pytz
 
 class AuspiciousPeriodAPI:
     def __init__(self):
-        self.client_id = "efd2aa11-ce98-49e5-a04a-dfb5277d6856"
-        self.client_secret = "0GMhVTymCt6t4eTO1ugpgiTc4ghIYXsfOfroZKKD"
+        self.client_id = "secret"
+        self.client_secret = "secret"
         self.base_url = "https://api.prokerala.com/v2/astrology/auspicious-period"
 
     def get_access_token(self):
