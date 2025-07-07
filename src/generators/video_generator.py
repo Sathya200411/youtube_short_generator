@@ -6,7 +6,6 @@ from datetime import datetime
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Add Windows Python 3.13 site-packages path
-sys.path.append(r'C:\Users\arunk\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages')
 import cv2
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
